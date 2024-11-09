@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GlobalHacks (NPO)</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Hacks</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav>
-    <div class="logo">Global Hacks</div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#events">Events</a></li>
-      <li><a href="#resources">Resources</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <h1>Welcome to Global Hacks!</h1>
-    <p>Join us for an exciting journey of learning and collaboration.</p>
-  </section>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Globe</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <h2>About Us</h2>
-    <p>We are a global online platform connecting individuals to solve everyday problems through coding and creativity.</p>
-  </section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Building a Brighter Future with Code</h1>
+            <p class="hero-subtitle">Connect, Learn, Innovate</p>
+            <a href="#about" class="cta-button">Get Started</a>
+        </div>
+    </section>
 
-  <!-- Events Section -->
-  <section id="events" class="events">
-    <h2>Our Events</h2>
-    <p>Explore our events designed for young coders and innovators.</p>
-  </section>
+    <!-- Placeholder Sections -->
+    <section id="about" class="section about">
+        <h2>About Us</h2>
+        <p>Empowering the next generation of tech innovators.</p>
+    </section>
 
-  <!-- Resources Section -->
-  <section id="resources" class="resources">
-    <h2>Resources</h2>
-    <p>Check out our resources to support your journey. (Put the sponsors here)</p>
-  </section>
+    <section id="projects" class="section projects">
+        <h2>Our Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">Project A</div>
+            <div class="project-card">Project B</div>
+            <div class="project-card">Project C</div>
+        </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <form id="contactForm">
-      <input type="text" id="name" name="name" placeholder="Your Name" required>
-      <input type="email" id="email" name="email" placeholder="Your Email" required>
-      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p id="formStatus"></p>
-  </section>
+    <footer class="footer">
+        <p>&copy; 2024 GlobalHacks. All rights reserved.</p>
+    </footer>
 
-  <!-- JavaScript -->
-  <script src="script.js"></script>
 </body>
 </html>
